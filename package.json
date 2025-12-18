@@ -12,6 +12,9 @@
   "license": "MIT",
   "author": "Zero Foodprint",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test:update": "prettier --config ./index.js --write examples/",
     "test": "prettier --config ./index.js --check examples/"
