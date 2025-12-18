@@ -17,6 +17,7 @@
     "test": "prettier --config ./index.js --check examples/"
   },
   "devDependencies": {
-    "prettier": "^3.3.3"
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2"
   }
 }
