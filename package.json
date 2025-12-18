@@ -16,6 +16,10 @@
     "test:update": "prettier --config ./index.js --write examples/",
     "test": "prettier --config ./index.js --check examples/"
   },
+  "peerDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2"
+  },
   "devDependencies": {
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2"

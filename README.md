@@ -6,7 +6,7 @@ Prettier config used at Zero Foodprint
 Install the package using `npm` (or `yarn`)
 
 ```sh
-npm install --save-dev @zerofoodprint/prettier-config
+npm install --save-dev prettier prettier-plugin-tailwindcss @zerofoodprint/prettier-config
 ```
 
 Add the `prettier` key to your `package.json`
